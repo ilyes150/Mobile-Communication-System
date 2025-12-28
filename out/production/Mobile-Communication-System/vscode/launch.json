@@ -1,0 +1,16 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Mobile-Communication-System",
+            "classPaths": [
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/test"
+            ]
+        }
+    ]
+}
