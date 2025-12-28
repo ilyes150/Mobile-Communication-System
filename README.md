@@ -1,4 +1,4 @@
-# Telecommunications System Documentation
+# Mobile Communication System Documentation
 
 A comprehensive Java-based telecommunications simulation system that models mobile phones, SIM cards, cell towers (antennas), and network infrastructure.
 
@@ -16,7 +16,7 @@ A comprehensive Java-based telecommunications simulation system that models mobi
 
 ## System Overview
 
-This telecommunications system simulates a mobile network with the following components:
+This Mobile Communication System simulates a mobile network with the following components:
 
 - **Phones**: Mobile devices that can make and receive calls
 - **SIM Cards**: Identity and credit management for phones
@@ -698,4 +698,4 @@ For large networks, consider:
 
 ## Conclusion
 
-This telecommunications system provides a realistic simulation of mobile network operations with proper validation, resource management, and error handling. The modular design allows for easy extension and modification while maintaining system integrity through defensive programming practices.
+This Mobile Communication System provides a realistic simulation of mobile network operations with proper validation, resource management, and error handling. The modular design allows for easy extension and modification while maintaining system integrity through defensive programming practices.
