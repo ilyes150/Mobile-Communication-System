@@ -1,6 +1,6 @@
 # Mobile Communication System Documentation
 
-A comprehensive Java-based telecommunications simulation system that models mobile phones, SIM cards, cell towers (antennas), and network infrastructure.
+A comprehensive Java-based Mobile Communication simulation system that models mobile phones, SIM cards, cell towers (antennas), and network infrastructure.
 
 ---
 
@@ -38,7 +38,7 @@ This Mobile Communication System simulates a mobile network with the following c
 
 ### Overview
 
-The `Phone` class represents a mobile phone in the telecommunications simulation system. It manages phone calls, battery levels, SIM card integration, network connectivity through antennas, and geographic positioning.
+The `Phone` class represents a mobile phone in the Mobile Communication simulation system. It manages phone calls, battery levels, SIM card integration, network connectivity through antennas, and geographic positioning.
 
 ### Class Attributes
 
@@ -195,7 +195,7 @@ Updates the phone's geographic location.
 
 ### Overview
 
-The `SimCard` class represents a SIM (Subscriber Identity Module) card in a telecommunications simulation system. It manages the phone number, activation status, credit balance, and the association with a Phone device.
+The `SimCard` class represents a SIM (Subscriber Identity Module) card in a Mobile Communication simulation system. It manages the phone number, activation status, credit balance, and the association with a Phone device.
 
 ### Class Attributes
 
@@ -353,7 +353,7 @@ The SimCard class is tightly integrated with the Phone class:
 
 ### Overview
 
-The `Antenna` class represents a cell tower or base station in a telecommunications simulation system. It provides network coverage within a defined radius and manages the number of active calls it can handle simultaneously based on its capacity.
+The `Antenna` class represents a cell tower or base station in a Mobile Communication simulation system. It provides network coverage within a defined radius and manages the number of active calls it can handle simultaneously based on its capacity.
 
 ### Class Attributes
 
@@ -511,7 +511,7 @@ This creates a **circular coverage area** around the antenna. Points exactly on 
 
 ### Overview
 
-The `Network` class represents a telecommunications network infrastructure that manages multiple antennas. It enforces network topology rules by ensuring antennas have overlapping or adjacent coverage areas, and provides functionality to find the nearest available antenna for phones.
+The `Network` class represents a Mobile Communication network infrastructure that manages multiple antennas. It enforces network topology rules by ensuring antennas have overlapping or adjacent coverage areas, and provides functionality to find the nearest available antenna for phones.
 
 ### Class Attributes
 
