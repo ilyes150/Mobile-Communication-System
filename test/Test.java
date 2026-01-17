@@ -1,6 +1,4 @@
-import src.Phone;
-import src.SimCard;
-import src.Network;
+import src.*;
 
 public class Test {
     public static void main(String[] args) {
